@@ -149,28 +149,6 @@
 
 
 
-<style>
-    .mobile-view{
-        /* background-color: brown; */
-        display: flex;
-        gap: 20px;
-    }
-
-    @media(max-width:800px){
-        .mobile-view{
-display: flex;
-flex-direction: column;
-margin-top:40px;
-justify-content: center;
-align-items: center;
-
-        }
-
-
-
-    }
-
-</style>
 
 
 
@@ -280,14 +258,16 @@ align-items: center;
         <div class="max-width">
             <h2 class="title">My Projects</h2>
             <div class="carousel owl-carousel">
+
                 <div class="card">
                     <div class="box">
-                        <img src="images/logo.png" alt="img">
-                        <div class="text">Fitness Buddy</div>
-                        <p>A fitness tracker CRUD website </p>
-                        <a href="https://fitness-webapp.onrender.com/home" class="project" target="_blank">View Project</a>
+                        <img src="images/ss travels.jpg" alt="img">
+                        <div class="text">SS Travels</div>
+                        <p>A Travel booking website </p>
+                        <a href="https://travel-seven-peach.vercel.app/" class="project" target="_blank">View Project</a>
                     </div>
                 </div>
+
                 <div class="card">
                     <div class="box">
                         <img src="images/insradip.png" alt="img">
@@ -296,12 +276,23 @@ align-items: center;
                         <a href="https://lawyer-personal-site.onrender.com/" class="project" target="_blank">View project</a>
                     </div>
                 </div>
+
+
+                
                 <div class="card">
                     <div class="box">
                         <img src="images/Barbar Portfolio.png" alt="img">
                         <div class="text">Barbar Portfolio</div>
                         <p>Barbar appointment system </p>
                         <a href="https://barbar.onrender.com/" class="project" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/logo.png" alt="img">
+                        <div class="text">Fitness Buddy</div>
+                        <p>A fitness tracker CRUD website </p>
+                        <a href="https://fitness-webapp.onrender.com/home" class="project" target="_blank">View Project</a>
                     </div>
                 </div>
                 <div class="card">
@@ -407,7 +398,7 @@ align-items: center;
   
     <footer>
       
-        <p>&copy; <span id="dynamic-age"></span>  <a href="/index.html" target="_blank">SAMPRIT GHOSH</a> | All Rights Reserved |</p>
+        <p>&copy; <span><script>document.write(new Date().getFullYear());</script></span>  <a href="/index.html" target="_blank">SAMPRIT GHOSH</a> | All Rights Reserved |</p>
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
