@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Samprit Ghosh || portfolio</title>
+    <title>Samprit Ghosh || portfoio</title>
     <link rel="icon" href="images/my photo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <script src="index.js"></script>
@@ -56,14 +56,14 @@
     
         // typing text animation script
         var typed = new Typed(".typing", {
-            strings: ["Web Developer", "Open Source Contributor", "Freelancer", "Front End Enthusiast", "UI Designer", "Photographer", "Technical Writer",],
+            strings: ["Web Developer", "Software developer", "Freelancer", "Front End Enthusiast", "UI Designer", "Full stack developer",],
             typeSpeed: 100,
             backSpeed: 60,
             loop: true
         });
     
         var typed = new Typed(".typing-2", {
-            strings: ["Web Developer", "Open Source Contributor", "Freelancer", "Front End Enthusiast", "UI Designer", "Photographer", "Technical Writer",],
+            strings: ["Web Developer", "Software developer", "Freelancer", "Front End Enthusiast", "UI Designer", "Full stack developer"],
             typeSpeed: 100,
             backSpeed: 60,
             loop: true
@@ -103,7 +103,7 @@
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#teams" class="menu-btn">Services</a></li>
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
                 <li><a href="#teams" class="menu-btn">Projects</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
@@ -138,12 +138,49 @@
                 </div>
                 <div class="column right">
                     <div class="text">I'm Samprit Ghosh and I'm a <span class="typing-2"></span></div>
-                    <p> And I am 22 years  young boy with  dynamic and enthusiastic person looking for the job Web Design and Development mostly specializing in front end development. A firm believer in my own abilities, I am also a
+                    <p> And I am <span id="dynamic-age"></span>  years  young boy with  dynamic and enthusiastic person looking for the job Web Design and Development. A firm believer in my own abilities, I am also a
                         team player who thrives in a challenging environment.I am a fresher with new and dynamics project ideas. Well-versed in numerous programming languages including HTML5,PHP,MySQL, JavaScript,Python and strong background in project management and customer relations.  </p>
-                    <a href="images/My Resume.pdf" download="cv/sample.pdf">Download CV</a>
+                   
+                   
+                   <div class="mobile-view">
+                        <a href="images/Samprit Ghosh.pdf" download="cv/SAMPRIT_GHOSH_CV.pdf">Download CV</a>
+                    <a href="https://codepen.io/samprit-ghosh" target="_blank">Follow Codepen</a>
+                </div>
+
+
+
+<style>
+    .mobile-view{
+        /* background-color: brown; */
+        display: flex;
+        gap: 20px;
+    }
+
+    @media(max-width:800px){
+        .mobile-view{
+display: flex;
+flex-direction: column;
+margin-top:40px;
+justify-content: center;
+align-items: center;
+
+        }
+
+
+
+    }
+
+</style>
+
+
+
+                    
                 </div>
             </div>
         </div>
+
+
+
     </section>
 
     <!-- services section start -->
@@ -156,16 +193,9 @@
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
-                    <p>Since beginning my journey as a freelance developer nearly 1 month ago, I’ve done remote work for agencies, consulted for startups, and collaborated with talented people to create web products for both business and consumer use.
-                        <br><br>
-                        I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development, HTML, CSS, JS, building small and medium web apps, custom plugins, features, animations, and coding interactive layouts.
-                        <br><br>
-                        I also have full-stack developer experience with popular open-source CMS like (WordPress, bubble.io and others) .
-                        <br> 
-                        Visit my<a href="https://www.linkedin.com/in/samprit-ghosh-5a8a1119b/" target="-blank" id="link">Linkdin</a>for more details<a href="#contact" id="link">contact</a>me.
-
-                    </p>
-                    <a style="background: rgb(225, 224, 224);" href="#contact">Learn more</a>
+             <p>As a Full-Stack Developer, I possess a strong command of both front-end and back-end technologies. My expertise includes HTML5, CSS3, JavaScript, React.js, Node.js, PHP, MySQL, and Python. I have experience in developing dynamic web applications, integrating APIs, and managing databases. Additionally, I am proficient in version control using Git and have a solid understanding of UI/UX principles to create engaging and user-friendly interfaces.</p>
+                    <a 
+                    href="https://github.com/samprit-ghosh?tab=repositories" target="_blank">Learn more</a>
                 </div>
                 <div class="column right">
                     <div class="bars">
@@ -215,6 +245,21 @@
                         <div class="line mysql"></div>
                     </div>
 
+                    <div class="bars">
+                        <div class="info">
+                            <span>Django </span>
+                            <span>75%</span>
+                        </div>
+                        <div class="line mysql"></div>
+                    </div>
+
+                    <div class="bars">
+                        <div class="info">
+                            <span>Power BI</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line mysql"></div>
+                    </div>
 
                 <div class="bars">
                         <div class="info">
@@ -245,18 +290,18 @@
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="images/pdftdocx.png" alt="img">
-                        <div class="text">Pdf to Docx Converter</div>
-                        <p>Pdf to Docx Converter app</p>
-                        <a href="https://pdftodocx-lbpu.onrender.com/" class="project" target="_blank">View project</a>
+                        <img src="images/insradip.png" alt="img">
+                        <div class="text">Lawyer Portfolio</div>
+                        <p>Indradip Chakraborty Lawyers</p>
+                        <a href="https://lawyer-personal-site.onrender.com/" class="project" target="_blank">View project</a>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="images/fuzion.png" alt="img">
-                        <div class="text">Fuzion</div>
-                        <p>A cool music player </p>
-                        <a href="https://samprit-ghosh.github.io/Fuzion.in/" class="project" target="_blank">View Project</a>
+                        <img src="images/Barbar Portfolio.png" alt="img">
+                        <div class="text">Barbar Portfolio</div>
+                        <p>Barbar appointment system </p>
+                        <a href="https://barbar.onrender.com/" class="project" target="_blank">View Project</a>
                     </div>
                 </div>
                 <div class="card">
@@ -270,19 +315,28 @@
 
                 <div class="card">
                     <div class="box">
-                        <img src="images/todo.png" alt="img">
-                        <div class="text">Todo app</div>
-                        <p>Todo app for regular notes </p>
-                        <a href="https://todo-app-v61o.onrender.com/" class="project" target="_blank">View Project</a>
+                        <img src="images/Car Portfolio.png" alt="img">
+                        <div class="text">Car Portfolio</div>
+                        <p>Find What Are You Looking For</p>
+                        <a href="https://samprit-ghosh.github.io/car/" class="project" target="_blank">View Project</a>
                     </div>
                 </div>
 
                 <div class="card">
                     <div class="box">
-                        <img src="images/weather.png" alt="img">
-                        <div class="text">Weather app</div>
-                        <p>Check instant weather update</p> </p>
+                        <img src="images/Small Bussiness.png" alt="img">
+                        <div class="text">Small Bussiness</div>
+                        <p>Check Bussiness Profile</p> </p>
                         <a href="https://weather-cou6.onrender.com/" class="project" target="_blank">View Project</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <img src="images/Goamatkaa.png" alt="img">
+                        <div class="text">GoaMatkaa </div>
+                        <p>Gambling Game</p> </p>
+                        <a href="https://goamatkaa.in/" class="project" target="_blank">View Project</a>
                     </div>
                 </div>
             </div>
@@ -292,7 +346,7 @@
     <!-- contact section start -->
     <section class="contact" id="contact">
         <div class="max-width">
-            <h2 class="title">Contact me</h2>
+            <h2 class="title">Contact Me</h2>
             <div class="contact-content">
                 <div class="column left">
                     <div class="text">Get in Touch</div>
@@ -340,7 +394,7 @@
                             <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
                         </div>
                         <div class="button-area">
-                            <button type="submit">Send message</button>
+                          <a href="mailto:sampritghosh310@gmail.com">  <button type="submit">Send message</button></a>
                         
                         </div>
                     </form>
@@ -353,7 +407,7 @@
   
     <footer>
       
-        <p>&copy; 2023 <a href="https://hembdrpun.com.np/" target="_blank">SAMPRIT GHOSH</a> | All Rights Reserved |</p>
+        <p>&copy; <span id="dynamic-age"></span>  <a href="/index.html" target="_blank">SAMPRIT GHOSH</a> | All Rights Reserved |</p>
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
@@ -378,5 +432,23 @@
          loader.style.display = "none";
       })
   </script>
+
+
+
+<script>
+    const birthYear = 2001; // Change this to your actual birth year
+
+function updateAge() {
+const currentYear = new Date().getFullYear();
+return currentYear - birthYear;
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+const ageSpan = document.getElementById("dynamic-age");
+if (ageSpan) {
+ageSpan.textContent = updateAge();
+}
+});
+</script>
 </body>
 </html>

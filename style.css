@@ -31,7 +31,7 @@ html{
 
 /* all similar content styling codes */
 section{
-    padding: 100px 0;
+    padding: 50px 0;
 }
 .max-width{
     max-width: 1300px;
@@ -40,6 +40,9 @@ section{
 }
 .about, .services, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
+
+    background-color: #000000;
+    color: #ffbc00;
 }
 .about .about-content,
 .services .serv-content,
@@ -66,7 +69,7 @@ section .title::before{
     left: 50%;
     width: 180px;
     height: 3px;
-    background: #111;
+    background: #ffffff;
     transform: translateX(-50%);
 }
 section .title::after{
@@ -295,17 +298,40 @@ section .title::after{
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 3px solid #9e0909fb;
     transition: all 0.3s ease-in-out; 
     
     
 }
+
+
 .about .about-content .right a:hover{
    color: white;
     background: crimson;
-
+    border: 3px solid #ffffff;
 } 
 
+
+/* . */
+
+.text{
+    color: #ffffff;
+}
+
+
+
+.skills a{
+    display: inline-block;
+    background: rgb(225, 224, 224);
+    color: crimson;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 3px solid #9e0909fb;
+    transition: all 0.3s ease-in-out; 
+}
 
 /* services section styling */
 .services, .teams{
@@ -854,7 +880,7 @@ input,textarea
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color: #333;
+    color: #ffffff;
 }
 .contact .right form .fields{
     display: flex;
@@ -864,6 +890,8 @@ input,textarea
     height: 55px;
     width: 100%;
     margin-bottom: 15px;
+    border: 3px solid #ffbc00;
+    border-radius: 10px;
 }
 .contact .right form .textarea{
     height: 80px;
@@ -1164,6 +1192,14 @@ footer .wave#wave4
         width: 100%;
         margin-bottom: 35px;
     }
+
+
+.about a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 }
 
 @media (max-width: 690px) {
